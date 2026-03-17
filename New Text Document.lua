@@ -8,7 +8,7 @@ local ImGui
 if IsStudio then
 	ImGui = require(ReplicatedStorage.ImGui)
 else
-	local SourceURL = 'https://github.com/romesonetone-glitch/Imguiinsidecode/blob/main/New%20Text%20Document.lua'
+	local SourceURL = 'https://raw.githubusercontent.com/romesonetone-glitch/Imguiinsidecode/refs/heads/main/New%20Text%20Document.lua'
 	ImGui = loadstring(game:HttpGet(SourceURL))()
 end
 
